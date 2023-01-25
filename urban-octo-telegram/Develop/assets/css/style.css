@@ -1,27 +1,28 @@
-* {
+/* This is the universal selector specifying the default padding, margin, font-size, and box-sizing for the web page. */
+* { 
     box-sizing: border-box;
     padding: 0;
     margin: 0;
     font-size: 16px
 }
-
+/* This sets the background color of the body attribute. */
 body {
     background-color: #d9dcd6;
 }
-
+/* This sets the font, background color, color, and padding for the header class of the web page. */
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/* This makes the display inline-block, changes the font size, and changes the color for any the child elements witihn the parent header. */
 .header h1, .header h1 .seo {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
-
+/* This specifies that any child div under the parent header class will have the prescribed padding on top, margin on the right, font family, font size, and it will float to the right of the screen. */
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -29,21 +30,17 @@ body {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
-.header div ul {
-    list-style-type: none;
-}
-
+/* This shows the display to be inline block for any list item in the child of the parent header. */
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/* This specifies the color. */
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* This sets the criteria for the entire hero class: inlcuding height, width, bottom margin, and image specs. */
 .hero {
     height: 800px;
     width: 100%;
@@ -52,23 +49,23 @@ a {
     background-size: cover;
     background-position: center;
 }
-
+/* This floats the top image and the very bototm image to the left of the box. */
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/* This floats the middle image on the webpage to the right. */
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/* This specifies how the content will be displayed using inline block. */
 .content {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
 }
-
+/* This sets the criteria for how all of the benefits will show on the far right box of the webpage. */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -79,23 +76,23 @@ a {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
 }
-
+/* This specifies the bottom margin and color of the following classes. */
 .benefit-lead, .benefit-brand, .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
 }
-
+/* This specifies the bottom margin and the text alignmnet criteria for the h3 class under the following parents. */
 .benefit-lead h3, .benefit-brand h3, .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
 }
-
+/* This specifies the display as block-model, the margin to be 10px, and the max width for all of the images in the respective classes. */
 .benefit-lead img, .benefit-brand img, .benefit-cost img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
-
+/* This specifies the margin's bottom, padding, height, font family, background color and color of the following classes. */
 .search-engine-optimization, .online-reputation-management, .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
@@ -104,16 +101,16 @@ a {
     background-color: #0072bb;
     color: #ffffff;
 }
-
+/* This specifies the maximum height for the img. */
 .search-engine-optimization img, .online-reputation-management img, .social-media-marketing img {
     max-height: 200px;
 }
-
+/* This sets the font-size and bottom margin of the class attributes. */
 .search-engine-optimization h2, .online-reputation-management h2, .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
-
+/* This defines the padding, font size and family, box placement and text alignment for the footers. */
 .footer, .footer h2 {
     padding: 10px;
     clear: both;

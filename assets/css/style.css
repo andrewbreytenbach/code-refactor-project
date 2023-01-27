@@ -17,10 +17,16 @@ body {
     color: #ffffff;
 }
 /* This makes the display inline-block, changes the font size, and changes the color for any the child elements witihn the parent header. */
-.header h1, .header h1 .seo {
+.header h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
+}
+
+/* This changes the color for the letters 'seo' in the name Horiseon */
+.seo {
+    font-size: 48px;
+    color: darkgrey;
 }
 /* This specifies that any child div under the parent header class will have the prescribed padding on top, margin on the right, font family, font size, and it will float to the right of the screen. */
 .header div {

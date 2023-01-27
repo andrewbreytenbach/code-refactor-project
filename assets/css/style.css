@@ -17,13 +17,7 @@ body {
     color: #ffffff;
 }
 /* This makes the display inline-block, changes the font size, and changes the color for any the child elements witihn the parent header. */
-.header h1 {
-    display: inline-block;
-    font-size: 48px;
-    color: #d9dcd6;
-}
-
-.seo {
+.header h1 , .header h1 .seo {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;

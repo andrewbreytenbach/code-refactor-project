@@ -17,13 +17,13 @@ body {
     color: #ffffff;
 }
 /* This makes the display inline-block, changes the font size, and changes the color for any the child elements witihn the parent header. */
-.header h1 , .header h1 .seo {
+.header h1, .header h1 .seo {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
 }
-/* This specifies that any child under the parent header class will have the prescribed padding on top, margin on the right, font family, font size, and it will float to the right of the screen. */
-.header nav {
+/* This specifies that any child div under the parent header class will have the prescribed padding on top, margin on the right, font family, font size, and it will float to the right of the screen. */
+.header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -31,7 +31,7 @@ body {
     font-size: 20px;
 }
 /* This shows the display to be inline block for any list item in the child of the parent header. */
-.header nav ul li {
+.header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -118,4 +118,5 @@ a {
     text-align: center;
     font-size: 20px;
 }
+
 

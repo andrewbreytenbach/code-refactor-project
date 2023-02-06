@@ -10,14 +10,14 @@ body {
     background-color: #d9dcd6;
 }
 /* This sets the font, background color, color, and padding for the header class of the web page. */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 /* This makes the display inline-block, changes the font size, and changes the color for any the child elements witihn the parent header. */
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
     color: #d9dcd6;
@@ -29,7 +29,7 @@ body {
     color: darkgrey;
 }
 /* This specifies that any child div under the parent header class will have the prescribed padding on top, margin on the right, font family, font size, and it will float to the right of the screen. */
-.header div {
+header div {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -37,7 +37,7 @@ body {
     font-size: 20px;
 }
 /* This shows the display to be inline block for any list item in the child of the parent header. */
-.header div ul li {
+header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
@@ -47,7 +47,7 @@ a {
     text-decoration: none;
 }
 /* This sets the criteria for the entire hero class: inlcuding height, width, bottom margin, and image specs. */
-.hero {
+.background-image {
     height: 800px;
     width: 100%;
     margin-bottom: 25px;
@@ -117,7 +117,7 @@ a {
     font-size: 36px;
 }
 /* This defines the padding, font size and family, box placement and text alignment for the footers. */
-.footer, .footer h2 {
+footer, footer h4 {
     padding: 10px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;

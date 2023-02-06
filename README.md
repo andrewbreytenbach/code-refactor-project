@@ -1,19 +1,44 @@
-# module-01-challenge-css-and-html
-The Module 1 challenge for the coding bootcamp
+CODE REFACTOR PROJECT
 
-The purpose of this challange and this repo is to consider web accesibility in styling a website. Those with disabilities have a right to use the website, and accessibility ensure they are able to use assistive technology like a screen reader or braille keyboard and still experience relatively the same thing. 
-Accessibility helps in search engines and thus it is also good for business. 
+## About The Project
 
-This repository has a unique name, code that has been cloned and edited, and also has this README file explaining what to expect.
+This project was to refactor code in order to clean it up and make it more readily accessible to the users who will be interactng with the website. The HTML and CSS files were very unorganized and need to be fixed using proper semantic rules and guidelines for accessibility. 
 
-All of the links on the website function correctly. CSS Selectors are organized and consolidated and the CSS file is commenetd on, expalining how the selectors work. 
+### Built With
 
-The website is deployed live on Github Pages. It loads without errors. 
+* HTML 
+* CSS
 
-Here is the link to the live application: https://andrewbreytenbach.github.io/module-01-challenge-css-and-html/ 
+## Getting Started
 
-Here is a screenshot of what this should look like: 
-[Screenshot 2023-01-27 at 18.46.55.pdf](https://github.com/andrewbreytenbach/module-01-challenge-css-and-html/files/10523892/Screenshot.2023-01-27.at.18.46.55.pdf)
+In order to acess this website, just visit the following webpage: [https://andrewbreytenbach.github.io/code-refactor-project] (Horiseon Marketing Agency)
 
-And lower on the page:
-[Screenshot 2023-01-27 at 18.47.06.pdf](https://github.com/andrewbreytenbach/module-01-challenge-css-and-html/files/10523893/Screenshot.2023-01-27.at.18.47.06.pdf)
+To get a local copy up and running, simply view the index.html file or the style.css file and see how you can play around, copy, and edit the fle for personal usage. 
+
+This code was refactored and cleaned to make it more accessible for others using the website. 
+
+## Usage
+
+This is an example of how to refactor or clone code and then clean it up to make the website accessible to the users who would be unable to see the website as originally designed, i.e. those using screen readers or needing some sort of visual assistance. The code was very messy originally and it needed to be simplified in order to follow best oractice for semantic structure and code organization.
+
+Additionally, if the user wants to see how specifcially the css works to design and structure the webpage, then I have commented the entire CSS file in order to make it easy to understand and to follow how each selector functions and the purpose they serve. 
+
+
+## License
+
+There is no license this repo was distributed under. 
+
+## Contact
+
+Andrew Breytenbach
+
+Project Link: [https://github.com/andrewbreytenbach/code-refactor-project] (https://github.com/andrewbreytenbach/code-refactor-project)
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+## Acknowledgments
+
+* [https://www.w3docs.com/] (W3 Docs)
+* [https://developer.mozilla.org/en-US/] (MDN Web Docs)
+* [https://html.com/] (HTML for Beginners)
+* [https://blog.hubspot.com/website/css-tutorial] (The Ultimate CSS Tutorial for Beginner Programmers)
